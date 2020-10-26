@@ -20,9 +20,9 @@ module.exports = config => {
 	});
 
 	// Returns work items, sorted by display order
-	config.addCollection('projects', collection => {
+	config.addCollection('portfolio', collection => {
   return collection
-    .getFilteredByGlob('./src/project/*.md')
+    .getFilteredByGlob('./src/portfolio/*.md')
     .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
 	});
 
