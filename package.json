@@ -1,5 +1,5 @@
 {
-  "name": "afec-demo0",
+  "name": "reacdev",
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/admkrm/reac.dev.git"
+    "url": "git+https://github.com/mmargauxx/reacdev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/admkrm/reac.dev/issues"
+    "url": "https://github.com/mmargauxx/reac.dev/issues"
   },
-  "homepage": "https://github.com/admkrm/reac.dev#readme",
+  "homepage": "https://github.com/mmargauxx/reac.dev#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
   },
